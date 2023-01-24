@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		657F25C3297FABF900C67DB9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 657F25C2297FABF900C67DB9 /* .gitignore */; };
 		65D15F50291C6D5400CB014A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F4F291C6D5400CB014A /* AppDelegate.swift */; };
 		65D15F54291C6D5400CB014A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F53291C6D5400CB014A /* ViewController.swift */; };
 		65D15F5A291C6D5400CB014A /* CoreDataStack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F58291C6D5400CB014A /* CoreDataStack.xcdatamodeld */; };
@@ -15,10 +16,10 @@
 		65D15F6C291C6E2A00CB014A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F6B291C6E2A00CB014A /* StorageManager.swift */; };
 		65D15F70291C6E9000CB014A /* Testing+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F6E291C6E9000CB014A /* Testing+CoreDataClass.swift */; };
 		65D15F71291C6E9000CB014A /* Testing+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F6F291C6E9000CB014A /* Testing+CoreDataProperties.swift */; };
-		65D15F74291C784B00CB014A /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 65D15F73291C784B00CB014A /* gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		657F25C2297FABF900C67DB9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = "../NASA-APIs/.gitignore"; sourceTree = "<group>"; };
 		65D15F4C291C6D5400CB014A /* CoreDataStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D15F4F291C6D5400CB014A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D15F53291C6D5400CB014A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +30,6 @@
 		65D15F6B291C6E2A00CB014A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		65D15F6E291C6E9000CB014A /* Testing+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Testing+CoreDataClass.swift"; sourceTree = "<group>"; };
 		65D15F6F291C6E9000CB014A /* Testing+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Testing+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		65D15F73291C784B00CB014A /* gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = gitignore; path = "../../../Library/Group Containers/group.com.apple.notes/tmp/HardLinkURLTemp/AB574DE4-D12F-4E6D-98C5-725CAAE6E7EE/1655247947/gitignore"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 		65D15F43291C6D5400CB014A = {
 			isa = PBXGroup;
 			children = (
-				65D15F73291C784B00CB014A /* gitignore */,
+				657F25C2297FABF900C67DB9 /* .gitignore */,
 				65D15F4E291C6D5400CB014A /* CoreDataStack */,
 				65D15F4D291C6D5400CB014A /* Products */,
 			);
@@ -174,8 +174,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657F25C3297FABF900C67DB9 /* .gitignore in Resources */,
 				65D15F5C291C6D5500CB014A /* Assets.xcassets in Resources */,
-				65D15F74291C784B00CB014A /* gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
