@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		657F25C3297FABF900C67DB9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 657F25C2297FABF900C67DB9 /* .gitignore */; };
+		657F25C5297FAD1F00C67DB9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 657F25C4297FAD1F00C67DB9 /* .gitignore */; };
 		65D15F50291C6D5400CB014A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F4F291C6D5400CB014A /* AppDelegate.swift */; };
 		65D15F54291C6D5400CB014A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F53291C6D5400CB014A /* ViewController.swift */; };
 		65D15F5A291C6D5400CB014A /* CoreDataStack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D15F58291C6D5400CB014A /* CoreDataStack.xcdatamodeld */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		657F25C2297FABF900C67DB9 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = "../NASA-APIs/.gitignore"; sourceTree = "<group>"; };
+		657F25C4297FAD1F00C67DB9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		65D15F4C291C6D5400CB014A /* CoreDataStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D15F4F291C6D5400CB014A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D15F53291C6D5400CB014A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		65D15F43291C6D5400CB014A = {
 			isa = PBXGroup;
 			children = (
-				657F25C2297FABF900C67DB9 /* .gitignore */,
+				657F25C4297FAD1F00C67DB9 /* .gitignore */,
 				65D15F4E291C6D5400CB014A /* CoreDataStack */,
 				65D15F4D291C6D5400CB014A /* Products */,
 			);
@@ -174,7 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657F25C3297FABF900C67DB9 /* .gitignore in Resources */,
+				657F25C5297FAD1F00C67DB9 /* .gitignore in Resources */,
 				65D15F5C291C6D5500CB014A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
